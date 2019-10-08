@@ -1,22 +1,69 @@
-.App {
-  text-align: center;
+.Header {
+  height: 20em;
+  color: white;
+  border-bottom: 3px solid #ff8c00;
 }
 
-.App-logo {
-  height: 40vmin;
+.Header-right-container {
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header-right-name {
+  font-size: 7em;
+  font-weight: 700;
+}
+
+.Header-right-summary {
+  font-size: 2.5em;
+  margin-right: 0.5em;
+  margin-top: 0.35em;
+}
+
+.Header-left-container {
+  float: right;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 3em;
 }
 
-.App-link {
-  color: #09d3ac;
+.Header-profile-pic {
+  height: 16em;
+  border-radius: 50%;
+}
+
+.Content {
+  color: white;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.Item {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.Item-heading {
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
+.Item-sub-heading {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #ff8c00;
+}
+
+.Item-description {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin: 0;
+  margin-left: 1em;
+  margin-top: 0.75em;
 }
