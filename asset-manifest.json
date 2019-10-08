@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AntonFM/minimal-cv.git/static/css/main.b100e6da.chunk.css",
+    "main.js": "/AntonFM/minimal-cv.git/static/js/main.eea22e81.chunk.js",
+    "main.js.map": "/AntonFM/minimal-cv.git/static/js/main.eea22e81.chunk.js.map",
+    "runtime-main.js": "/AntonFM/minimal-cv.git/static/js/runtime-main.bc06ceb0.js",
+    "runtime-main.js.map": "/AntonFM/minimal-cv.git/static/js/runtime-main.bc06ceb0.js.map",
+    "static/js/2.11012d8f.chunk.js": "/AntonFM/minimal-cv.git/static/js/2.11012d8f.chunk.js",
+    "static/js/2.11012d8f.chunk.js.map": "/AntonFM/minimal-cv.git/static/js/2.11012d8f.chunk.js.map",
+    "index.html": "/AntonFM/minimal-cv.git/index.html",
+    "precache-manifest.8ab89b37b032d0bd6b586d30c6b1961d.js": "/AntonFM/minimal-cv.git/precache-manifest.8ab89b37b032d0bd6b586d30c6b1961d.js",
+    "service-worker.js": "/AntonFM/minimal-cv.git/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/AntonFM/minimal-cv.git/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/AntonFM/minimal-cv.git/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc06ceb0.js",
+    "static/js/2.11012d8f.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.eea22e81.chunk.js"
+  ]
+}
