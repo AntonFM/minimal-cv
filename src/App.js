@@ -9,11 +9,14 @@ function App() {
         <div className="Header-right-container">
           <img className="Header-profile-pic" src={profile} alt="profile" />
         </div>
-        <div className="Header-left-container">
-          <div className="Header-right-name">Anton Freyr Magnússon</div>
-          <div className="Header-right-summary">
+        <div className="Header-middle-container">
+          <div className="Header-middle-name">Anton Freyr Magnússon</div>
+          <div className="Header-middle-summary">
             Single dad with a passion for masturbation.
           </div>
+        </div>
+        <div className="Header-left-container">
+          <img className="Header-profile-pic" src={profile} alt="profile" />
         </div>
       </header>
       <main class="Content">
