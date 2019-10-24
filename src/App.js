@@ -1,11 +1,11 @@
 import React from 'react';
-import profile from './imgs/toni.jpg';
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
     <React.Fragment>
-      <header className="Header">
+      {/* <header className="Header">
         <div className="Header-right-container">
           <img className="Header-profile-pic" src={profile} alt="profile" />
         </div>
@@ -18,7 +18,8 @@ function App() {
         <div className="Header-left-container">
           <img className="Header-profile-pic" src={profile} alt="profile" />
         </div>
-      </header>
+      </header> */}
+      <Header></Header>
       <main class="Content">
         <article class="Item">
           <div class="Item-heading">Pied Piper</div>
