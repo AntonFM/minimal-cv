@@ -1,13 +1,16 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import Img from '../imgs/toni.jpg';
-import { SocialIcon } from 'react-social-icons';
 import PropTypes from 'prop-types';
 
 const StyledHeader = styled.div`
   background: #282c34;
-  height: 20em;
+  height: 24em;
   border-bottom: 3px solid #ff8c00;
+
+  @media (max-width: 767px) {
+    height: 35em;
+  }
 `;
 
 const StyledHeading = styled.div`
@@ -19,6 +22,10 @@ const StyledHeading = styled.div`
 const StyledImg = styled.img`
   height: 18em;
   border-radius: 50%;
+  margin-right: 1em;
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 
 const StyledLeftHead = styled.div`
@@ -35,20 +42,15 @@ const StyledRightHead = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 `;
 
 const StyledDesc = styled.div`
   font-size: 3.5em;
   margin-top: 0.5em;
   margin-left: 0.5em;
+  margin-bottom: 0.5em;
   color: white;
-`;
-
-const StyledSocial = styled.div`
-  float: left;
-  margin-top: 10em;
-  margin-right: 5em;
-  padding-right: 2px;
 `;
 
 const Header = () => {
@@ -56,25 +58,11 @@ const Header = () => {
     <StyledHeader>
       <StyledLeftHead>
         <StyledHeading>Anton Freyr Magnússon</StyledHeading>
-        <StyledDesc>Passion for Masturbation</StyledDesc>
+        <StyledDesc>
+          A Family Man with passion for Coding, Cooking and Gaming.
+        </StyledDesc>
       </StyledLeftHead>
       <StyledRightHead>
-        <StyledSocial>
-          <SocialIcon
-            url="https://www.facebook.com/Magnusson92"
-            bgColor="#ff8c00"
-          />
-          <SocialIcon
-            url="https://www.instagram.com/toninn12/"
-            bgColor="#ff8c00"
-          />
-          <SocialIcon url="https://github.com/AntonFM" bgColor="#ff8c00" />
-          <SocialIcon
-            url="toninn12.afm@gmail.com"
-            network="mailto"
-            bgColor="#ff8c00"
-          />
-        </StyledSocial>
         <StyledImg src={Img}></StyledImg>
       </StyledRightHead>
     </StyledHeader>
